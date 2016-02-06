@@ -1,14 +1,14 @@
 class Grabeni < Formula
-  grabeni_version = '0.3.1'
+  grabeni_version = '0.4.0'
   homepage 'https://github.com/yuuki1/grabeni'
   version grabeni_version
 
   if Hardware.is_64_bit?
     url "https://github.com/yuuki1/grabeni/releases/download/v#{grabeni_version}/grabeni_darwin_amd64.zip"
-    sha256 '3c2232031fedf2fb86eb0b1eb90d5d22424d485344ab6681725cfdd811b8fedd'
+    sha256 'b45a1a6ae9525f92209957aea86cdb0be24e644ffe2cf5d0a8a58aff190a8fd9'
   else
     url "https://github.com/yuuki1/grabeni/releases/download/v#{grabeni_version}/grabeni_darwin_386.zip"
-    sha256 '1b2a812c94814934eb54823d6e467462f9c4b0641f161dbaf27c3ab1ba643e55'
+    sha256 'b94c498bfc28db966b3ed5d8948d5d12b34328291c002cef3f5a330e28b2b24f'
   end
 
   head do
