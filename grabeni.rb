@@ -5,10 +5,10 @@ class Grabeni < Formula
 
   if Hardware.is_64_bit?
     url "https://github.com/yuuki1/grabeni/releases/download/v#{grabeni_version}/grabeni_darwin_amd64.zip"
-    sha256 'a47dc0f46870ecd2d6c5fbd52cdc618a7dd27dc5c7a98bf671f33593aa35c319'
+    sha256 '628507fffbd8895acc2e00b2ab2a8c7f970a3dad3775a8517bb452616ff024af'
   else
     url "https://github.com/yuuki1/grabeni/releases/download/v#{grabeni_version}/grabeni_darwin_386.zip"
-    sha256 '8fd6101bfe33634bf18c10ad2a715ad1bc721e9bb9b9653f9a9a8bc95d59145d'
+    sha256 '2010472e4e4a178d6c565442190c627f3c5944f33089f659affcc0c84a5e889c'
   end
 
   head do
