@@ -3,7 +3,7 @@ class Grabeni < Formula
   homepage 'https://github.com/yuuki/grabeni'
   version grabeni_version
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url "https://github.com/yuuki/grabeni/releases/download/v#{grabeni_version}/grabeni_darwin_amd64.zip"
     sha256 '628507fffbd8895acc2e00b2ab2a8c7f970a3dad3775a8517bb452616ff024af'
   else
